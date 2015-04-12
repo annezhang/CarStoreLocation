@@ -27,5 +27,44 @@
 		501～700：key验证失败\n</string>
     <string name="qa_callback">问题反馈方法</string>
     <string name="qa_callback_mail">mapapi@baidu.com</string>
+    
+    
+    
+    <string name="list_container_title">维修店</string>
+    <string name="current_addr">当前地址是：</string>
+    
+    
+    <string name="credit_prompt">信誉等级</string>
+    <string-array name="creditOptions"> 
+        <item>信誉等级</item> 
+        <item>AAA</item> 
+        <item>AA</item> 
+        <item>A</item>        
+    </string-array> 
+    
+    <string name="carMark_prompt">汽车品牌</string>
+    <string-array name="car_marks">
+        <item>汽车品牌</item> 
+        <item>上海大众</item> 
+        <item>标志</item> 
+        <item>MG</item> 
+        <item>依维柯</item>
+        <item>雷克萨斯</item>
+        <item>福特</item>
+    </string-array> 
+    
+    
+    
+    <string name="is4s_prompt">是否4S店</string>
+    <string-array name="is4sOptions"> 
+        <item>是否4S店</item>
+        <item>是</item> 
+    </string-array> 
+    
+    
+    
+    <string name="carstore_list_item_grade">资质类别：</string>
+    <string name="carstore_list_item_4s">4S店：</string>
+    <string name="carstore_list_item_type">主修车型：</string>
 
 </resources>

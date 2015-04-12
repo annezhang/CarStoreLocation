@@ -1,6 +1,5 @@
 package com.example.locationcarstore;
 
-
 import android.app.Activity;
 import android.os.Bundle;
 
@@ -8,9 +7,9 @@ import android.os.Bundle;
  * 常见问题
  */
 public class QuestActivity extends Activity {
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.quest_activity);
-	}
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.quest_activity);
+    }
 }
