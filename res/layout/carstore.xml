@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+    <RelativeLayout
+        android:id="@+id/menu_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue">"
+        
+        <TextView 
+            android:id="@+id/menu_title_txtview"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/list_container_title"
+            android:layout_alignParentLeft="true"
+            />
+        
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+            
+            <ImageView 
+            android:id="@+id/search_button"
+            style="@style/list_container_menuitem_style"
+            android:src="@drawable/search_icon"
+            android:layout_marginRight="10dp"
+            />"
+        
+            <ImageView 
+            android:id="@+id/map_model"
+            style="@style/list_container_menuitem_style"
+            android:src="@drawable/map_icon"
+            android:layout_alignParentRight="true"/>       
+        
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        
+        <TextView 
+            
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/current_addr"
+            android:layout_alignParentLeft="true"
+            />
+        
+        <TextView 
+            android:id="@+id/txtview_currentAddr"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+           
+            />
+        
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Spinner
+            android:id="@+id/spinner_credit"
+            style="@style/classification_item_style"
+            android:prompt="@string/credit_prompt"/>
+        
+        <Spinner
+            android:id="@+id/spinner_carMark"
+            style="@style/classification_item_style"
+            android:prompt="@string/carMark_prompt"/>
+        
+        <Spinner
+            android:id="@+id/spinner_is4s"
+            style="@style/classification_item_style"
+            android:prompt="@string/is4s_prompt"/>
+        
+    </LinearLayout>
+        
+        
+     <ListView 
+         android:id="@+id/list_store_container"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:dividerHeight="5dp"
+         />"
+        
+        
+    
+
+</LinearLayout>

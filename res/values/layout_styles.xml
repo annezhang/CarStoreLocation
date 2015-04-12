@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- styles for layout -->
+    
+    <style name="list_container_menuitem_style">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    
+    <style name="classification_item_style">
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    
+    <style name="list_item_image">
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:src">@drawable/ic_launcher</item>
+    </style>    
+  
+</resources>

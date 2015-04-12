@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <ImageView 
+        android:id="@+id/image_store"
+        style="@style/list_item_image"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        />
+    
+    
+     <LinearLayout
+           android:id="@+id/moreinfo"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            >
+             
+           <TextView
+                 android:id="@+id/txtview_credit"
+                 style="@style/list_item_txtview_lineRightStyle"
+                 android:text="AAA"/>
+           
+           
+            <TextView
+                 android:id="@+id/txtview_distance"
+                 style="@style/list_item_txtview_lineRightStyle"
+                 android:text="0km"/> 
+           
+         </LinearLayout>
+           
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/image_store"
+        android:layout_toLeftOf="@id/moreinfo"
+        android:layout_marginLeft="10dp"
+        >
+        
+        
+        <TextView 
+            android:id="@+id/txtview_storeName"
+            style="@style/list_item_txtview_line1Style"
+            
+            />
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            
+             <TextView
+                 android:id="@+id/txtview_qualification"
+                 style="@style/list_item_txtview_line2_paramStyle"
+                 android:text="@string/carstore_list_item_grade"/>
+            
+             <TextView
+                 android:id="@+id/txtview_qualification_value"
+                 style="@style/list_item_txtview_line2_valueStyle"/>
+             
+             <TextView
+                 android:id="@+id/txtview_4s"
+                 style="@style/list_item_txtview_line2_paramStyle"
+                 android:text="@string/carstore_list_item_4s"/>
+            
+             <TextView
+                 android:id="@+id/txtview_4s_value"
+                 style="@style/list_item_txtview_line2_valueStyle"/>
+             
+             <TextView
+                 android:id="@+id/txtview_major"
+                 style="@style/list_item_txtview_line2_paramStyle"
+                 android:text="@string/carstore_list_item_type"/>
+            
+             <TextView
+                 android:id="@+id/txtview_major_value"
+                 style="@style/list_item_txtview_line2_valueStyle"/>
+            
+        </LinearLayout>
+        
+        <TextView 
+            android:id="@+id/txtview_address"
+            style="@style/list_item_txtview_line3Style"           
+            />
+        
+        </LinearLayout>
+        
+      
+</RelativeLayout>
